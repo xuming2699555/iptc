@@ -9,6 +9,6 @@ public:
     space(rule *r);
     ~space();
     std::vector<rule *> vrule;
-    long long fip;
+    u_int64_t fip;
     int fport;
 };

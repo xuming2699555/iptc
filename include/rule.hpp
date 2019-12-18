@@ -7,9 +7,9 @@ class rule
 public:
     rule(std::string s);
     ~rule();
-    long long sip;
+    u_int64_t sip;
     int sport;
-    long long dip;
+    u_int64_t dip;
     int dport;
-    int action;
+    char action;
 };
